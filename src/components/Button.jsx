@@ -18,9 +18,3 @@ Button.propTypes = {
   properties: PropTypes.string,
 };
 export default Button;
-
-/* inline-block text-xs md:text-sm lg:text-lg
-inline-block text-xs md:text-sm lg:text-lg
-text-xs md:text-sm lg:text-lg
-absolute bottom-[calc(-1rem)] left-1/2 transform -translate-x-1/2 text-xs sm:text-sm lg:text-sm
-inline-block text-sm md:text-base lg:text-lg */

@@ -3,10 +3,7 @@ import styles, { layout } from "../style";
 const EmailSubscription = () => {
   return (
     <section className="relative bg-image2 mt-16">
-      <div
-        className={`${layout.sectionCol} py-10 gap-3`}
-        /* "flex flex-col justify-center items-center text-center font-playfair px-6 py-10 gap-3" */
-      >
+      <div className={`${layout.sectionCol} py-10 gap-3`}>
         <h1 className={`${styles.heading1} text-white`}>
           Subscribe to get the Latest News
         </h1>

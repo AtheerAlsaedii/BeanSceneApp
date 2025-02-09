@@ -15,17 +15,12 @@ const Hero = () => {
             <h1 className="font-clicker lg:text-9xl md:text-8xl text-7xl">
               Coffee
             </h1>
-            <p
-              className={`${styles.paragraph} text-white`} /* className="font-normal text-xs md:text-sm lg:text-lg" */
-            >
+            <p className={`${styles.paragraph} text-white`}>
               It is best to start your day with a cup of coffee. Discover the
               best flavours coffee you will ever have. We provide the best for
               our customers.
             </p>
-            <Button
-              text={"Order Now"}
-              /*         properties={"inline-block text-xs md:text-sm lg:text-lg"} */
-            />
+            <Button text={"Order Now"} />
           </div>
         </div>
       </div>

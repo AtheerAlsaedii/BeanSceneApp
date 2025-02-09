@@ -12,12 +12,7 @@ const Menu = () => {
           className="h-full object-contain"
         />
       </div>
-      <div
-        className={`${layout.sectionCol} ${styles.paddingT}`}
-        /*   className={`${styles.flexCenter} 
-        container 
-        pb-6 pt-24 lg:pt-18 md:pt-18 px-6 lg:px-16 flex-col text-center space-y-2`} */
-      >
+      <div className={`${layout.sectionCol} ${styles.paddingT}`}>
         <h1 className={`${styles.heading1}`}>
           Enjoy a new blend of coffee style
         </h1>
@@ -25,10 +20,7 @@ const Menu = () => {
           Explore all flavours of coffee with us. There is always a new cup
           worth experiencing
         </p>
-        <div
-          className={`${layout.cardWarp}`}
-          /* className="flex flex-wrap justify-center lg:gap-5 gap-8 py-8 px-3 overflow-hidden" */
-        >
+        <div className={`${layout.cardWarp}`}>
           <MenuCard />
         </div>
       </div>

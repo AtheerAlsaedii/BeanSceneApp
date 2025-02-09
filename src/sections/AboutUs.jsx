@@ -24,10 +24,7 @@ const AboutUs = () => {
             There is no doubt that you will enjoy this coffee more than others
             you have ever tasted.
           </p>
-          <Button
-            text={"Learn More"}
-            // properties={"inline-block text-xs md:text-sm lg:text-lg"}
-          />
+          <Button text={"Learn More"} />
         </div>
       </div>
     </section>

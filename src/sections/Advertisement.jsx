@@ -16,10 +16,7 @@ const Advertisement = () => {
             We are giving you are one time opportunity to experience a better
             life with coffee.
           </p>
-          <Button
-            text={"Order Now"}
-            // properties={"text-xs md:text-sm lg:text-lg"}
-          />
+          <Button text={"Order Now"} />
         </div>
         <img
           src={cup}
