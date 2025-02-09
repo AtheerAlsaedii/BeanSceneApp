@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap");
+/* tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  /* padding: 0; */
+}
+/*bg images*/
+.hero-bg {
+  background-image: url("./assets/herobackground.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.bg-image2 {
+  background-image: url("./assets/advertisementbackground.jpg"); /* هنا ضع مسار الصورة الخلفية */
+  background-size: cover; /* لجعل الصورة تغطي كامل الخلفية */
+  background-position: center; /* لضبط الصورة في منتصف الخلفية */
+  background-repeat: no-repeat; /* لمنع تكرار الصورة */
+  height: fit-content;
+}
+/*footer bg*/
+.footer-bg {
+  position: relative;
+}
+
+.footer-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+      rgba(96, 56, 9, 1),
+      /* اللون 603809 مع الشفافية */ rgba(96, 56, 9, 0.9)
+    ),
+    url("./assets/footer_bg.svg"); /* وضع الصورة كخلفية */
+  background-size: contain;
+  background-position: center;
+  z-index: 1; /* جعل الطبقة فوق الصورة وأقل من المحتوى */
+}
+@media (max-width: 768px) {
+  .footer-bg::before {
+    background-image: linear-gradient(rgba(96, 56, 9, 1), rgba(96, 56, 9, 0.9));
+  }
+}
+.content {
+  position: relative;
+  z-index: 2; /* جعل المحتوى فوق الطبقة */
+  padding: 80px 48px;
+  color: white;
+}
