@@ -28,10 +28,7 @@ const Testimonials = () => {
   });
   return (
     <section className={`${styles.marginB} relative`}>
-      <div
-        className={`${layout.sectionCol}`}
-        // /* {styles.flexCenter} flex-col text-center space-y-4 */
-      >
+      <div className={`${layout.sectionCol}`}>
         <h1 className={`${styles.heading1}`}>Our coffee perfection feedback</h1>
         <p className={`${styles.paragraph}`}>
           Our customers has amazing things to say about us
