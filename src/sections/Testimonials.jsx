@@ -52,18 +52,22 @@ const Testimonials = () => {
           </button>
         </div>
       </div>
-      <div className="absolute top-14 transform -translate-y-1/2 md:h-[200px] lg:h-[300px] max-w-[370px] w-auto right-0 md:flex hidden">
+      <div
+        className={`${styles.coffeeImgSize} ${styles.coffeeTranslate} top-14 max-w-[370px] right-0 md:flex hidden`}
+      >
         <img
           src={coffeeBlast}
           alt="coffee blast"
-          className="h-full object-contain transform scale-x-[-1]"
+          className={`${styles.coffeeImage} scale-x-[-1]`}
         />
       </div>
-      <div className="absolute bottom-0 transform translate-y-28 md:h-[200px] lg:h-[300px] max-w-[370px] w-auto left-0 md:flex hidden">
+      <div
+        className={`${styles.coffeeImgSize} ${styles.coffeeTranslate} bottom-0 translate-y-28 max-w-[370px] left-0 md:flex hidden`}
+      >
         <img
           src={coffeeBlast}
           alt="coffee blast"
-          className="h-full object-contain scale-y-[-1]"
+          className={`${styles.coffeeImage} scale-y-[-1]`}
         />
       </div>
     </section>

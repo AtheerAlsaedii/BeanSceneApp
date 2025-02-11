@@ -4,7 +4,7 @@ import styles from "../style";
 
 const AboutUs = () => {
   return (
-    <section className={`${styles.marginB}`}>
+    <section className={`${styles.marginB}`} id="aboutUs">
       <div
         className={`${styles.paddingX} ${styles.paddingY} container flex flex-col items-center justify-around md:flex-row-reverse gap-5`}
       >

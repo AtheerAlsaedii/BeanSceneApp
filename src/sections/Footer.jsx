@@ -47,6 +47,7 @@ const Footer = () => {
         {footerLinks.map((col, index) => (
           <div
             key={index}
+            id={col.id}
             className="font-playfair text-left pl-0 lg:pl-12 pt-8"
           >
             <h3
@@ -56,7 +57,10 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               {col.links.map((link, index) => (
-                <li key={index}>
+                <li
+                  key={index}
+                  className="transition-all duration-300 hover:scale-105 hover:text-p1 cursor-pointer"
+                >
                   <a href={link.href}>{link.text}</a>
                 </li>
               ))}

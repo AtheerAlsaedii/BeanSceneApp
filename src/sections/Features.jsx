@@ -4,12 +4,14 @@ import styles, { layout } from "../style";
 
 const Features = () => {
   return (
-    <section className={`${styles.marginB}`}>
-      <div className="absolute top-1/5 transform -translate-y-1/2 md:h-[200px] lg:h-[300px] max-w-[320px] w-auto right-0">
+    <section className={`${styles.marginB}`} id="features">
+      <div
+        className={`${styles.coffeeImgSize} ${styles.coffeeTranslate} top-1/5 max-w-[320px] right-0`}
+      >
         <img
           src={coffeeBlast}
           alt="coffee blast"
-          className="h-full object-contain transform scale-x-[-1]"
+          className={`${styles.coffeeImage} scale-x-[-1]`}
         />
       </div>
       <div className={`${layout.sectionCol} ${styles.paddingT}`}>

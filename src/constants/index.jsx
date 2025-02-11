@@ -15,9 +15,9 @@ import youtube from "../assets/icons/youtube.svg";
 import x from "../assets/icons/x.svg";
 export const navItems = [
   { label: "Home", href: "#" },
-  { label: "Menu", href: "#" },
-  { label: "About Us", href: "#" },
-  { label: "Contact Us", href: "#" },
+  { label: "Menu", href: "#menu" },
+  { label: "About Us", href: "#aboutUs" },
+  { label: "Contact Us", href: "#contactus" },
 ];
 export const menuItems = [
   {
@@ -101,15 +101,17 @@ export const socialLinks = [
 export const footerLinks = [
   {
     title: "About",
+    id: "about",
     links: [
-      { text: "Menu", href: "#" },
-      { text: "Features", href: "#" },
+      { text: "Menu", href: "#menu" },
+      { text: "Features", href: "#features" },
       { text: "News & Blogs", href: "#" },
       { text: "Help & Supports", href: "#" },
     ],
   },
   {
     title: "Company",
+    id: "company",
     links: [
       { text: "How we work", href: "#" },
       { text: "Terms of service", href: "#" },
@@ -119,6 +121,7 @@ export const footerLinks = [
   },
   {
     title: "ContactUs",
+    id: "contactus",
     links: [
       {
         text: "Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016",
