@@ -1,4 +1,4 @@
-import { clsx } from "clsx";
+/* import { clsx } from "clsx";
 import { navItems } from "../constants";
 import PropTypes from "prop-types";
 
@@ -21,4 +21,4 @@ Navbar.propTypes = {
   ulProperties: PropTypes.string,
   liProperties: PropTypes.string,
 };
-export default Navbar;
+export default Navbar; */
